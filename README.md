@@ -5,6 +5,10 @@ You need to have more than 1 gpu graph card
 
 In my case , I have four GTX 1080
 
+The follow URL is what NCCL can Do on Collectives
+
+https://images.nvidia.com/events/sc15/pdfs/NCCL-Woolley.pdf
+
 # Complier with
 After install nccl with the https://github.com/NVIDIA/nccl
 
