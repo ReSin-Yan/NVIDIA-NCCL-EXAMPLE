@@ -5,11 +5,11 @@ You need to have more than 1 gpu graph card
 
 In my case , I have four GTX 1080
 
-# complier with
+# Complier with
 After install nccl with the https://github.com/NVIDIA/nccl
 
 ~~~
-#just add the link library
+#just add the link library -lnccl
 nvcc nccl.cu -lnccl
 ~~~
 
@@ -17,6 +17,7 @@ nccl.cu is what you want to complier with nccl code
 
 # Usage
 nessary is nccl needed
+
 choose can omitted
 ## _Number of gpu_
 #nessary
