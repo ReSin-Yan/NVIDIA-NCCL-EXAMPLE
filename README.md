@@ -1,26 +1,16 @@
 # NVIDIA-NCCL-EXAMPLE
 Here is the simple and teaching way to teaching how to code NCCL and complier
 
-This is a regular paragraph.
-
-<table>
-    <tr>
-        <td>Foo</td>
-    </tr>
-</table>
-
-This is another regular paragraph.
-
-
-This is an H1
-=============
-
-This is an H2
--------------
-
-
-~~~bash
-
-...
+# complier with
+After install nccl with the 
 
 ~~~
+
+#just add the link library
+nvcc nccl.cu -lnccl
+
+~~~
+
+nccl.cu is what you want to complier with nccl code
+
+# code analysis
